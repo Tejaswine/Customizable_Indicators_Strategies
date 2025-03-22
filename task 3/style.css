@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 8px;
+    width: 80px;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #output-container {
+    margin-top: 30px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    max-width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  

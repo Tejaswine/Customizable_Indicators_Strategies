@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customizable Trading Strategy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Customizable Trading Strategy</h1>
+    
+    <div class="input-container">
+      <label for="ma-period">Moving Average Period (Days):</label>
+      <input type="number" id="ma-period" value="50" min="1" max="200">
+    </div>
+    
+    <div class="button-container">
+      <button id="apply-strategy">Apply Strategy</button>
+    </div>
+
+    <div id="output-container">
+      <h2>Strategy Output:</h2>
+      <p id="strategy-result">No strategy applied yet.</p>
+    </div>
+    
+    <canvas id="chart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
